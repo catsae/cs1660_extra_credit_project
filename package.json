@@ -4,7 +4,7 @@
   "scripts": {
     "start": "meteor run",
     "lint": "./node_modules/eslint/bin/eslint.js . ; find . -path ./node_modules -prune -o -name '*.scss' -exec stylelint {} +",
-    "prettier": "find . \\( -path ./.meteor -o -path ./node_modules \\) -prune -o -name '*.js' -exec prettier --write {} +",
+    "prettier": "find . \\( -path ./.meteor -o -path ./node_modules \\) -prune -o -name '*.js' -exec prettier --write {} +"
   },
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
