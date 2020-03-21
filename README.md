@@ -10,3 +10,5 @@ docker build -t yourname/app .
 Run Command
 docker run -d -p 80:3000 yourname/app
 
+
+VIDEO link: https://youtu.be/v3XlLdrUNtQ
